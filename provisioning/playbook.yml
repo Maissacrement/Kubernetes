@@ -1,0 +1,25 @@
+---
+- hosts: all
+  become: true
+  vars_files:
+      - "vars/test.yml"
+
+  vars:
+      ansible_test: "Install required packages"
+
+  tasks:
+      - name: "{{ansible_test}}"
+        apt: name={{item}}
+        loop:
+            - php5-cli
+            - nginx
+            - ssh
+            - net-tools
+            - mysql-client-5.5
+            - mysql-server-core-5.5
+      - name: "{{person.likes[0]}}"
+        shell: |
+            echo 'line one
+            line two
+            line three'
+...
