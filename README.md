@@ -11,9 +11,11 @@ Empty vagrant machine implement:
 
 # How start
 
+```bash
 run: `make up`
 provisioning: `make provision`
 destroy: `make rm`
+```
 
 # See help
 
