@@ -1,1 +1,0 @@
-{"virtualbox":{"/automation":{"guestpath":"/automation","hostpath":"/home/maissacrement/Documents/Kubernetes/Kubernetes/automation","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/maissacrement/Documents/Kubernetes/Kubernetes","disabled":false,"__vagrantfile":true}}}
