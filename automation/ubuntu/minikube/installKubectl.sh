@@ -14,7 +14,7 @@ function download_kube() {
 }
 
 function install() {
-  echo -e 'Add kubectl for loacl user\n'
+  echo -e 'Add kubectl for local user\n'
   sudo mv ./${KUBERNETES_FILE} /usr/local/bin/${KUBERNETES_FILE}
   kubectl version --client
 }
